@@ -1,1 +1,264 @@
-# FLOOM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-out;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        p {
+            color: #555;
+        }
+    </style>
+    <title>FLOOM - Your Flower Shop</title>
+</head>
+<body>
+    <header>
+        <h1>FLOOM</h1>
+        <p>Your Flower Shop</p>
+    </header>
+
+    <section class="intro">
+        <p>Welcome to FLOOM, where flowers come to life!</p>
+    </section>
+
+    <section class="featured-flowers">
+        <h2>Featured Flower</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+            <style>
+              @keyframes move {
+                0% {
+                  transform: translate(0, 0);
+                }
+                50% {
+                  transform: translate(10px, 10px);
+                }
+                100% {
+                  transform: translate(20px, 20px);
+                }
+              }
+          
+              circle, rect {
+                animation: move 5s ease-in-out infinite;
+              }
+          
+              svg {
+                background-color: #e0f7fa; /* Set background color */
+              }
+            </style>
+          
+            <!-- Flower petals -->
+            <circle cx="50" cy="30" r="10" fill="pink" />
+            <circle cx="65" cy="45" r="10" fill="pink" />
+            <circle cx="50" cy="60" r="10" fill="pink" />
+            <circle cx="35" cy="45" r="10" fill="pink" />
+          
+            <!-- Flower center -->
+            <circle cx="50" cy="45" r="5" fill="yellow" />
+          
+            <!-- Flower stem -->
+            <rect x="48" y="70" width="4" height="30" fill="green" />
+          </svg>
+          
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: 'Arial', sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f2f2f2;
+                }
+        
+                header {
+                    text-align: center;
+                    padding: 20px;
+                    background-color: #4CAF50;
+                    color: white;
+                    animation: fadeIn 1s ease-out;
+                }
+        
+                @keyframes fadeIn {
+                    from {
+                        opacity: 0;
+                    }
+                    to {
+                        opacity: 1;
+                    }
+                }
+        
+                section {
+                    padding: 20px;
+                    text-align: center;
+                    background-color: #fff;
+                    margin: 20px;
+                    border-radius: 8px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease-out;
+                }
+        
+                section:hover {
+                    transform: scale(1.05);
+                }
+        
+                h1 {
+                    margin: 0;
+                }
+        
+                p {
+                    color: #555;
+                }
+        
+                .contact-container {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                }
+        
+                .contact-info,
+                .contact-form {
+                    width: 300px;
+                    padding: 20px;
+                    margin: 20px;
+                    text-align: center;
+                    background-color: #f9f9f9;
+                    border-radius: 8px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease-out;
+                }
+        
+                .contact-info:hover,
+                .contact-form:hover {
+                    transform: scale(1.05);
+                }
+        
+                .contact-info h3,
+                .contact-form h3 {
+                    color: #4CAF50;
+                }
+        
+                .contact-form form {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+        
+                .contact-form label {
+                    margin-bottom: 5px;
+                    color: #555;
+                }
+        
+                .contact-form input,
+                .contact-form textarea {
+                    width: 100%;
+                    padding: 8px;
+                    margin-bottom: 10px;
+                    box-sizing: border-box;
+                    border: 1px solid #ddd;
+                    border-radius: 4px;
+                }
+        
+                .contact-form button {
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 10px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+                }
+        
+                .contact-form button:hover {
+                    background-color: #45a049;
+                }
+            </style>
+            <title>FLOOM - Your Flower Shop</title>
+        </head>
+        <body>
+            <header>
+                <h1>FLOOM</h1>
+                <p>Your Flower Shop</p>
+            </header>
+        
+            <section class="contact">
+                <h2>Contact Us</h2>
+        
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Visit Us</h3>
+                        <p>501 Rizal Street,<br>Valladolid, Negros Occidental</p>
+                    </div>
+        
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Email: FlowersBloom@icloud.com<br>Phone: +1 (785) 456-7890</p>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Contact Form</h3>
+                        <form>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+        
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+        
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+        
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </body>
+        </html>
+            </section>
+</body>
+</html>
